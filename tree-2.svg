@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 508.00001 285.74999"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="tree-2.svg"
+   enable-background="new">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4853"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#42affa;stroke-width:1pt;stroke-opacity:1;fill:#42affa;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4865"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#42affa;stroke-opacity:1;fill:#42affa;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4859"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#42affa;stroke-opacity:1;fill:#42affa;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4838"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <circle
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:0.49803922;fill-rule:evenodd;stroke:none;stroke-width:1.78560388;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path4598-3-6-1-7-5-9"
+       cx="-129.12611"
+       cy="-130.7997"
+       r="84.536263"
+       transform="rotate(172.41102)" />
+    <circle
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:0.49803922;fill-rule:evenodd;stroke:none;stroke-width:1.85503721;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path4598-3-6-1-8-7-7"
+       cx="54.610889"
+       cy="269.74374"
+       r="87.823456"
+       transform="matrix(-0.43091697,0.90239158,0.90239158,0.43091697,0,0)" />
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4853-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send-3-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4853-7-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send-3-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4853-7-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send-3-9-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4853-7-2-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send-3-9-6-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4853-7-2-3-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#222222"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="244.91998"
+     inkscape:cy="738.71781"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer4"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-text-baseline="true">
+    <sodipodi:guide
+       position="256.64583,214.83992"
+       orientation="1,0"
+       id="guide4644"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid4646" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Base"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-11.25001)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4598-5-6"
+       width="57.883331"
+       height="37.883335"
+       x="129.80833"
+       y="140.47501" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="134.9375"
+       y="154.12502"
+       id="text4506"><tspan
+         sodipodi:role="line"
+         id="tspan4504"
+         x="134.9375"
+         y="154.12502"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Medium';fill:#ffffff;stroke-width:0.26458332px">foo/</tspan></text>
+    <circle
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#42affa;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#42affa;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path4598-3-6-1-7-3"
+       cx="256.64584"
+       cy="74.750008"
+       r="18.941668" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4598-5-5"
+       width="57.883331"
+       height="37.883335"
+       x="330.89166"
+       y="140.47501" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="251.56584"
+       y="80.72747"
+       id="text4506-9"><tspan
+         sodipodi:role="line"
+         id="tspan4504-1"
+         x="251.56584"
+         y="80.72747"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16.93333244px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Medium';fill:#ffffff;stroke-width:0.26458332px">/</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="336.02084"
+       y="154.12502"
+       id="text4506-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan4504-7-9"
+         x="336.02084"
+         y="154.12502"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Medium';fill:#ffffff;stroke-width:0.26458332px">baz/</tspan></text>
+    <g
+       id="g4778"
+       transform="translate(-2.0395762,-1.3229168)">
+      <rect
+         y="154.12502"
+         x="166.6875"
+         height="18.520836"
+         width="16.591661"
+         id="rect4598-5"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <text
+         id="text4506-0"
+         y="168.09079"
+         x="171.06538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;stroke-width:0.26458332px"
+           y="168.09079"
+           x="171.06538"
+           id="tspan4504-6"
+           sodipodi:role="line">λ</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       id="g4778-2-9"
+       transform="translate(199.04376,-1.3229168)">
+      <rect
+         y="154.12502"
+         x="166.6875"
+         height="18.520836"
+         width="16.591661"
+         id="rect4598-5-61-2"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <text
+         id="text4506-0-8-0"
+         y="168.09079"
+         x="171.06538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;stroke-width:0.26458332px"
+           y="168.09079"
+           x="171.06538"
+           id="tspan4504-6-7-2"
+           sodipodi:role="line">λ</tspan></text>
+    </g>
+    <path
+       transform="translate(0,11.25001)"
+       style="display:inline;fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:3.17499995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="M 242.31916,75.890637 180.65131,129.225"
+       id="path4836"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path4598-3-6-1-7-3"
+       inkscape:connection-end="#rect4598-5-6" />
+    <path
+       style="display:inline;fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:3.17499995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-3-9)"
+       d="m 271.28913,86.765016 65.45904,53.709994"
+       id="path4836-5-2"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect4598-5-5"
+       inkscape:connection-start="#path4598-3-6-1-7-3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="One"
+     style="display:none;opacity:1"
+     sodipodi:insensitive="true">
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4598-5-2"
+       width="57.883331"
+       height="37.883335"
+       x="227.70418"
+       y="140.47501"
+       transform="translate(0,-11.25001)" />
+    <text
+       transform="translate(0,-11.25001)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="232.83333"
+       y="154.12502"
+       id="text4506-2"><tspan
+         sodipodi:role="line"
+         id="tspan4504-7"
+         x="232.83333"
+         y="154.12502"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Medium';fill:#ffffff;stroke-width:0.26458332px">bar/</tspan></text>
+    <g
+       style="display:inline"
+       id="g4778-2"
+       transform="translate(95.856258,-12.572927)">
+      <rect
+         y="154.12502"
+         x="166.6875"
+         height="18.520836"
+         width="16.591661"
+         id="rect4598-5-61"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <text
+         id="text4506-0-8"
+         y="168.09079"
+         x="171.06538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;stroke-width:0.26458332px"
+           y="168.09079"
+           x="171.06538"
+           id="tspan4504-6-7"
+           sodipodi:role="line">λ</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 359.83333,148.16666 v 0"
+       id="path5152"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4598-5-5"
+       inkscape:connection-end="#rect4598-5-5" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Two"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       transform="translate(0,-11.25001)"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4598-5-6-1"
+       width="57.883331"
+       height="37.883335"
+       x="174.95"
+       y="222.91667" />
+    <text
+       transform="translate(0,-11.25001)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="180.07915"
+       y="236.56668"
+       id="text4506-29"><tspan
+         sodipodi:role="line"
+         id="tspan4504-3"
+         x="180.07915"
+         y="236.56668"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Medium';fill:#ffffff;stroke-width:0.26458332px">fubar/</tspan></text>
+    <g
+       style="display:inline"
+       id="g4778-1"
+       transform="translate(43.102096,69.868743)">
+      <rect
+         y="154.12502"
+         x="166.6875"
+         height="18.520836"
+         width="16.591661"
+         id="rect4598-5-9"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <text
+         id="text4506-0-4"
+         y="168.09079"
+         x="171.06538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;stroke-width:0.26458332px"
+           y="168.09079"
+           x="171.06538"
+           id="tspan4504-6-78"
+           sodipodi:role="line">λ</tspan></text>
+    </g>
+    <rect
+       transform="translate(0,-11.25001)"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4598-5-6-1-4"
+       width="57.883331"
+       height="37.883335"
+       x="275.16666"
+       y="222.91667" />
+    <text
+       transform="translate(0,-11.25001)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="280.29581"
+       y="236.56667"
+       id="text4506-29-5"><tspan
+         sodipodi:role="line"
+         id="tspan4504-3-0"
+         x="280.29581"
+         y="236.56667"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Medium';fill:#ffffff;stroke-width:0.26458332px">quux/</tspan></text>
+    <g
+       style="display:inline"
+       id="g4778-1-3"
+       transform="translate(143.31879,69.868743)">
+      <rect
+         y="154.12502"
+         x="166.6875"
+         height="18.520836"
+         width="16.591661"
+         id="rect4598-5-9-6"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#ffdd55;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <text
+         id="text4506-0-4-1"
+         y="168.09079"
+         x="171.06538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;stroke-width:0.26458332px"
+           y="168.09079"
+           x="171.06538"
+           id="tspan4504-6-78-0"
+           sodipodi:role="line">λ</tspan></text>
+    </g>
+    <circle
+       transform="translate(0,-11.25001)"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#42affa;fill-opacity:0.49803922;fill-rule:evenodd;stroke:#42affa;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path4598-3-6-1-7-3-7"
+       cx="256.43417"
+       cy="158.73088"
+       r="18.941668" />
+    <text
+       transform="translate(0,-11.25001)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="246.08864"
+       y="161.71962"
+       id="text4506-9-3"><tspan
+         sodipodi:role="line"
+         id="tspan4504-1-6"
+         x="246.08864"
+         y="161.71962"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Medium';fill:#ffffff;stroke-width:0.26458332px">bar/</tspan></text>
+    <path
+       style="display:inline;fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:3.17499995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-3-9-6)"
+       d="m 246.31387,163.4922 -30.44972,48.17446"
+       id="path4836-5-2-2"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path4598-3-6-1-7-3-7"
+       inkscape:connection-end="#rect4598-5-6-1" />
+    <path
+       style="display:inline;fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:3.17499995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-3-9-6-0)"
+       d="m 265.85743,163.91181 27.38772,47.75485"
+       id="path4836-5-2-2-1"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path4598-3-6-1-7-3-7"
+       inkscape:connection-end="#rect4598-5-6-1-4" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Top"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="display:inline;fill:#42affa;fill-opacity:1;fill-rule:evenodd;stroke:#42affa;stroke-width:3.17499995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-3-8)"
+       d="M 256.64584,82.441665 V 129.225"
+       id="path4836-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path4598-3-6-1-7-3"
+       inkscape:connection-end="#rect4598-5-2" />
+  </g>
+</svg>

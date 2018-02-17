@@ -1,49 +1,354 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+	<section>
+          <h1>Time Travel With Clojure</h1>
+          <h2>Atamert Ölçgen</h2>
+          <h3>March 2018 - Singapore Clojure Group </h3>
+	  <aside class="notes">
+	    Functional programming lends itself to a descriptive style.  You
+	    tell the computer what should happen instead of enumerating steps
+	    that would produce the same result.
+	  </aside>
+        </section>
+	<section>
+	  <section>
+	    <h2>What is this talk about?</h2>
+	    <aside class="notes">
+	      We will be looking at things from a different perspective.
+	    </aside>
+	  </section>
+	  <section>
+	    <p>I want <span class="fragment highlight-current-red highlight-blue" data-fragment-index="3">this</span> to happen<span class="fragment" data-fragment-index="1">, right <span class="fragment highlight-current-red highlight-blue" data-fragment-index="4">here</span><span><span class="fragment" data-fragment-index="2"> and right <span class="fragment highlight-current-red highlight-blue" data-fragment-index="5">now</span>.</span></p>
+	    <aside class="notes">
+	      <p>When you write a program...</p>
+	      <p>...we are interested in the <em>now</em> part.</p>
+	    </aside>
+	  </section>
+	  <section>
+	    <h3>What is this talk <em>not</em> about?</h3>
+	    <ul>
+	      <li class="fragment">Not about interactive programming<span class="fragment"> → <a href="http://worrydream.com/#!/InventingOnPrinciple" target="_blank">Inventing On Principle</a></span></li>
+	      <li class="fragment">Not about undo<span class="fragment"> → <a href="https://github.com/reagent-project/historian" target="_blank">historian</a></span></li>
+	    </ul>
+	    <aside class="notes">
+	      - Interactive programming<br />
+	      - Undo<br />
+	      <br />
+	      When you use persistent data structures, implementing undo is easy.
+	    </aside>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>Primitives</h2>
+	    <aside class="notes">
+	      Timing of code execution during runtime.
+	    </aside>
+	  </section>
+	  <section data-background="primitives-1.svg">
+	  </section>
+	  <section data-background="primitives-2.svg">
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>Example 1: Overcoming resource limitations</h2>
+	  </section>
+	  <section>
+	    <p>Search a unique file in a large file system.</p>
+	    <p class="fragment">We do not have infinite memory.</p>
+	    <p class="fragment">There is no index.</p>
+	    <p class="fragment"><img src="no-index.gif" /></p>
+	  </section>
+	  <section data-background="tree-1.svg">
+	    <aside class="notes">
+	      - Root node is computed.<br />
+	      - Child nodes' children are not computed.<br />
+	      - A function that returns child nodes.<br />
+	      - Let us expand <strong>bar</strong>
+	    </aside>
+	  </section>
+	  <section data-background="tree-2.svg">
+	    <aside class="notes">
+	      - Function's results can be thrown away ...or not.<br />
+	      - If the results are thrown away, they can be computed again.
+	    </aside>
+	  </section>
+	  <section>
+	    <pre><code data-trim class="clojure">
+		{:name "/"
+		 :children [
+		   {:name "foo/"
+		    :children-fn (fn [...] ...)}
+		   {:name "bar/"
+		    :children-fn (fn [...] ...)}
+		   {:name "baz/"
+		    :children-fn (fn [...] ...)}
+		 ]}
+            </code></pre>
+	    <pre class="fragment"><code data-trim class="clojure">
+		(defn get-children [node]
+		  (assoc node :children ((:children-fn node))))
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+		(defn forget-children [node]
+		  (dissoc node :children))
+	    </code></pre>
+	    <aside class="notes">
+	      get-children<br />
+	      forget-children
+	    </aside>
+	  </section>
+	  <section>
+	    <h3>What if we did not have a memory constraint?</h3>
+	    <div class="fragment">
+	      <pre><code data-trim class="clojure">
+		{:name "/"
+		 :children [
+		   {:name "foo/"
+		    :children (delay ...)}
+		   {:name "bar/"
+		    :children (delay ...)}
+		   {:name "baz/"
+		    :children (delay ...)}
+		 ]}
+              </code></pre>
+	      <pre><code data-trim class="clojure">
+		(defn get-children [node]
+		  @(:children node))
+	      </code></pre>
+	    </div>
+	    <aside class="notes">
+	      delay
+	    </aside>
+	  </section>
+	  <section data-transition="slide-in fade-out">
+	    <h3>Lazy Sequence</h3>
+	    <div class="fragment">
+	      <pre><code data-trim class="clojure">
+		  (defn numbers
+		    ([] (numbers 1))
+		    ([i] [i (delay (numbers (inc i)))]))
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+		  (defn head [sequence] (first sequence))
+
+		  (defn tail [sequence] @(second sequence))
+	      </code></pre>
+	    </div>
+	    <aside class="notes">
+	      A simpler data structure<br />
+	      (head (tail (tail (tail (numbers))))) => 4
+	    </aside>
+	  </section>
+	  <section data-transition="fade-in">
+	    <h3>Lazy Sequence - Clojure Way</h3>
+	    <div>
+	      <pre><code data-trim class="clojure">
+		  (defn numbers
+		    ([] (numbers 1))
+		    ([i] (lazy-seq (cons i (numbers (inc i))))))
+
+		  (first (numbers))    # => 1
+		  (take 10 (numbers))  # => (1 2 3 4 5 6 7 8 9 10)
+	      </code></pre>
+	    </div>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>Example 2: Code as data</h2>
+	  </section>
+	  <section>
+	    <p>AJAX calls<span class="fragment"> without <code>core.async</code></span></p>
+	    <div class="fragment">
+	      <h3>Callbacks!!!!11</h3>
+	      <p><img src="callbacks-no.gif" /></p>
+	    </div>
+	    <aside class="notes">
+	      Callbacks
+	    </aside>
+	  </section>
+	  <section>
+	    <pre><code data-trim class="clojure">
+		(defn handler [response]
+		  (.log js/console (str response)))
+
+		(defn error-handler [{:keys [status status-text]}]
+		  (.log js/console
+		        (str "something bad happened: "
+		             status
+		             " "
+		             status-text)))
+
+		(GET "/hello" {:handler handler
+		               :error-handler error-handler})
+	    </code></pre>
+	    <p><a href="https://github.com/JulianBirch/cljs-ajax" target="_blank">cljs-ajax</a></p>
+	    <aside class="notes">
+	      We are packaging behavior in an object.
+	    </aside>
+	  </section>
+	  <section>
+	    <h3>Composable Futures</h3>
+	    <pre class="fragment"><code data-trim class="clojure">
+		(defmacro and-then [f g]
+		  `(future
+		    (let [result# (deref ~f)]
+		      (~g result#))))
+	    </code></pre>
+	    <pre class="fragment"><code data-trim class="clojure">
+		(-> (foo)            ;; foo returns a future
+		    (and-then bar)   ;; bar returns a value
+		    (and-then baz))  ;; baz returns a value
+	    </code></pre>
+	    <pre class="fragment"><code data-trim class="clojure">
+		`["my.ns/foo" -> "ns.two/bar" -> "ns.three/baz"]
+	    </code></pre>
+	    <aside class="notes">
+	      Define a <strong>workflow</strong>
+	    </aside>
+	  </section>
+	  <section>
+	    <h3>Programs Writing Programs</h3>
+	    <p><img src="mind-blown.gif" /></p>
+	    <p class="fragment"><strike>Time travel</strike> Exploratory Programming</p>
+	  </section>
+	  <section>
+	    Let's take it down a notch.
+	  </section>
+	  <section>
+	    <h3>Object Oriented Programming</h3>
+	    <pre class="fragment"><code data-trim class="clojure">
+		(def rect
+		  {:width 100
+		   :height 400
+		   :x 50
+		   :y 50
+		   :area (fn [self]
+		             (* (:width self) (:height self)))
+		   :circumference (fn [self]
+		                      (* (+ (:width self)
+		                            (:height self))
+		                         2))})
+	    </code></pre>
+	    <pre class="fragment"><code data-trim class="clojure">
+		(defn circumference [obj]
+		  ((:circumference obj) obj))
+	    </code></pre>
+	    <p class="fragment">SICP, <a href="http://sarabander.github.io/sicp/html/2_002e4.xhtml#index-dispatching-on-type">dispatching on type</a></p>
+	  </section>
+	  <section>
+	    <h3>Object Oriented Programming</h3>
+	    <p>Can we serialize our object?</p>
+	    <pre class="fragment"><code data-trim class="clojure">
+		(pr-str (:area rect))
+		;; => "#object[user$fn__1287
+		;;             0x62709976
+		;;             \"user$fn__1287@62709976\"]"
+	    </code></pre>
+	  </section>
+	  <section>
+	    <h3>Serializing Functions</h3>
+	    <pre><code data-trim class="clojure">
+		(defmacro sfn1 [param & body]
+		  (let [func-data `(fn [~param] ~@body)]
+		    `{:fn ~func-data
+		      :fn-data '~func-data}))
+	    </code></pre>
+	    <pre class="fragment"><code data-trim class="clojure">
+		(def area-of-rect
+		  (sfn1 self
+		        (* (:width self) (:height self))))
+
+		;; => {:fn #object[user$fn__1327
+		;;                 0x14cfc66e
+		;;                 "user$fn__1327@14cfc66e"],
+		;;     :fn-data (clojure.core/fn [self]
+		;;                (* (:width self) (:height self)))}
+	    </code></pre>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>Quiz</h2>
+	  </section>
+	  <section data-background="quiz-1.svg">
+	  </section>
+	  <section data-background="quiz-2.svg">
+	  </section>
+	  <section data-background="quiz-3.svg">
+	  </section>
+	  <section data-background="quiz-4.svg">
+	  </section>
+	  <section data-background="quiz-5.svg">
+	  </section>
+	  <section data-background="quiz-6.svg">
+	  </section>
+	  <section>
+	    <h4>Q: How can we defer execution of a form?</h4>
+	    <p class="fragment">A: <code>quote, '(...), `(...)</code></p>
+	  </section>
+	  <section>
+	    <h4>Q: How can we control execution of forms at read-time?</h4>
+	    <p class="fragment">A: Macros.</p>
+	  </section>
+	</section>
+	<section>
+	  <h2>Thanks!</h2>
+	  <p>
+	    <a href="https://muhuk.github.io/clojure-time-travel">muhuk.github.io/clojure-time-travel</a>
+	  </p>
+	</section>
+	<section>
+	  <h3>Appendix: Images</h3>
+	  <ul>
+	    <li><a href="https://giphy.com/gifs/angry-monday-working-xiAqCzbB3eZvG"><img style="width:200px; height:120px" src="no-index.gif" /></a></li>
+	    <li><a href="https://giphy.com/gifs/transparent-R238B3uahJd1C"><img style="width:200px; height:120px" src="callbacks-no.gif" /></a></li>
+	    <li><a href="https://giphy.com/gifs/collection-mind-SDogLD4FOZMM8"><img style="width:200px; height:120px" src="mind-blown.gif" /></a></li>
+	  </ul>
+	</section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ],
+        history: true
+      });
+    </script>
+  </body>
 </html>
