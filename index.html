@@ -112,7 +112,7 @@
             </code></pre>
 	    <pre class="fragment"><code data-trim class="clojure">
 		(defn get-children [node]
-		  (assoc node :children ((:children-fn node))))
+		  (assoc node :children ((:children-fn node) node)))
 
 		(defn forget-children [node]
 		  (dissoc node :children))
